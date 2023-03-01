@@ -174,6 +174,8 @@ main{
 }
 
 section{
+    margin: auto;
+    width: 375px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -212,6 +214,7 @@ section{
 .sectionp{
     width: 327px;
     height: 104px;
+    margin-left: 24px;
     margin-bottom: 64px;
     color: #7B8BAD;
     font-family: 'Barlow';
@@ -388,7 +391,7 @@ main{
     
 }
 
-.keyboardn2{
+.keyboardn2-tablet{
     display: block;
     width: 30%;
     height: 310px;
@@ -396,7 +399,7 @@ main{
     
 }
 
-.keyboardn3{
+.keyboardn3-tablet{
     display: block;
     width: 60%;
     height: 310px;
@@ -441,6 +444,8 @@ main{
 }
 
 section{
+    width: 100vw;
+    margin-left: 39px;
     position: relative;
     display: flex;
     flex-direction: row;
@@ -460,13 +465,9 @@ section{
     background-color: #F16718;
     border: none;
     margin-bottom: 48px;
-    margin-left: 39px;
 }
 
 .sectionh{
-    width: 327px;
-    height: 56px;
-    margin-left: 39px;
     margin-bottom: 24px;
     color: #162542;
     background-color: white;
@@ -480,9 +481,9 @@ section{
 }
 
 .sectionp{
-    width: 327px;
+    width: 281px;
     height: 104px;
-    margin-left: 39px;
+    margin-left: 0px;
     margin-bottom: 100px;
     color: #7B8BAD;
     font-family: 'Barlow';
@@ -506,16 +507,289 @@ section{
 
 }
 
-.lastspan{
-font-family: 'Barlow';
-font-size: 16px;
-font-weight: 500;
-line-height: 26px;
-letter-spacing: 0px;
-text-align: left;
+    .lastspan{
+    font-family: 'Barlow';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
 
 }
 
 }
+
+@media screen and (min-width:1440px) {
+
+    .keyboardn1{
+        display: none;
+    } 
+    .keyboardn1-tablet{
+        display: none;
+    } 
+    .keyboardn2{
+        display: none;
+    } 
+    .keyboardn2-tablet{
+        display: none;
+    }
+    .keyboardn3{
+        display: none;
+    } .keyboardn3-tablet{
+        display: none;
+    }
+    
+    
+    body{
+        width: 100vw;
+        box-sizing: border-box;
+        background-color: white;
+        margin: auto;
+    }
+    
+    main{
+        position: relative;
+        width: 768px;
+        margin: auto;
+        
+    }
+    
+    .logo{
+        width: 40px;
+        height: 40px;
+        margin-left: 39px;
+        margin-top: 49px;
+    }
+    
+    .pre-order{
+        position: absolute;
+        font-family: 'Barlow';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        border: none;
+        background-color: #E8EFF2;
+        width: 175px;
+        height: 58px;
+        border-radius: 8px;
+        margin-left: 470px;
+        margin-top: 40px;
+    
+    }
+    
+    .typemaster{
+        height: 96px;
+        width: 339px;
+        margin-left: 39px;
+        margin-top: 131px;
+        margin-bottom: 34px;
+        color: #162542;
+        font-family: 'Barlow';
+        font-size: 48px;
+        font-weight: 900;
+        line-height: 48px;
+        letter-spacing: 0px;
+        text-align: left;
+    
+    
+    }
+    
+    .headertext{
+        width: 339px;
+        height: 78px;
+        margin-left: 39px;
+        color: #7B8BAD;
+        font-family: 'Barlow';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+    
+    }
+    
+    .second-pre-order{
+        position: absolute;
+        border: none;
+        height: 58px;
+        width: 175px;
+        margin-left: 39px;
+        margin-top: 39px;
+        border-radius: 8px;
+        background-color: #F16718;
+        color: white;
+        font-family: 'Barlow';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0px;
+    
+    }
+    
+    .realase{
+        position: absolute;
+        color: #7B8BAD;
+        font-family: 'Barlow';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0px;
+        margin-top: 55px;
+        margin-left: 251px;
+    
+    }
+    
+    .keyboardn1-desktop{
+        display: block;
+        margin-left: 480px;
+        margin-top: -270px;
+        border-radius: 15px;
+        width: 430px;
+        height: 430px;
+        
+    
+    }
+        
+    
+    
+    .mainkeyboards{
+        display: flex;
+        flex-wrap:nowrap;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        margin-left: 39px;
+        
+        
+    }
+    
+    .keyboardn2-desktop{
+        display: block;
+        width: 30%;
+        height: 310px;
+        border-radius: 15px;
+        
+    }
+    
+    .keyboardn3-desktop{
+        display: block;
+        width: 60%;
+        height: 310px;
+        margin-left: 35px;
+    
+        border-radius: 15px;
+    }
+    
+    .wireless{
+        text-align: left;
+        margin-left: 39px;
+        margin-top: 70px;
+        margin-bottom: 142px;
+        color: #162542;
+        height: 108px;
+        width: 255px;
+        font-family: 'Barlow';
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 36px;
+        letter-spacing: 0px;
+    
+    
+    }
+    
+    .maintext{
+        position: absolute;
+        height: 78px;
+        width: 398px;
+        margin-left: 330px;
+        margin-top: -235px;
+        margin-bottom: 111px;
+        font-family: 'Barlow';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        color: #7B8BAD;
+    
+    
+    }
+    
+    section{
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .block{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    
+    .sectionimage{
+        width: 65px;
+        height: 65px;
+        border-radius: 16px;
+        background-color: #F16718;
+        border: none;
+        margin-bottom: 48px;
+        margin-left: 39px;
+    }
+    
+    .sectionh{
+        width: 327px;
+        height: 56px;
+        margin-left: 39px;
+        margin-bottom: 24px;
+        color: #162542;
+        background-color: white;
+        border: none;
+        font-family: 'Barlow';
+        font-size: 24px;
+        font-weight: 900;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    
+    .sectionp{
+        width: 327px;
+        height: 104px;
+        margin-left: 39px;
+        margin-bottom: 100px;
+        color: #7B8BAD;
+        font-family: 'Barlow';
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+    
+    .lastp{
+        margin-left: 250px;
+        color: #7B8BAD;
+        font-family: 'Barlow';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 50px;
+    
+    }
+    
+    .lastspan{
+    font-family: 'Barlow';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    
+    }
+    
+    }
 
 
