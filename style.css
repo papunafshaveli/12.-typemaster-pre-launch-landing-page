@@ -6,11 +6,16 @@
     display: none;
 }
 
+.grey{
+    display: none;
+}
+
 body{
-    width: 100vw;
+    width: 375px;
     box-sizing: border-box;
     background-color: white;
     margin: auto;
+    overflow-x: hidden;
 }
 
 main{
@@ -226,7 +231,7 @@ section{
 }
 
 .lastp{
-    margin-left: 51px;
+    margin-left: 66px;
     color: #7B8BAD;
     font-family: 'Barlow';
     font-size: 16px;
@@ -268,9 +273,14 @@ text-align: left;
     display: none;
 }
 
+.grey{
+    display: none;
+}
+
 
 body{
-    width: 100vw;
+    overflow-x: hidden;
+    width: 768px;
     box-sizing: border-box;
     background-color: white;
     margin: auto;
@@ -541,7 +551,8 @@ section{
     
     
     body{
-        width: 100vw;
+        overflow-x: hidden;
+        width: 1440px;
         box-sizing: border-box;
         background-color: white;
         margin: auto;
@@ -549,7 +560,7 @@ section{
     
     main{
         position: relative;
-        width: 768px;
+        width: 1440px;
         margin: auto;
         
     }
@@ -557,8 +568,8 @@ section{
     .logo{
         width: 40px;
         height: 40px;
-        margin-left: 39px;
-        margin-top: 49px;
+        margin-left: 165px;
+        margin-top: 64px;
     }
     
     .pre-order{
@@ -572,22 +583,22 @@ section{
         width: 175px;
         height: 58px;
         border-radius: 8px;
-        margin-left: 470px;
-        margin-top: 40px;
+        margin-left: 895px;
+        margin-top: 55px;
     
     }
     
     .typemaster{
-        height: 96px;
-        width: 339px;
-        margin-left: 39px;
-        margin-top: 131px;
-        margin-bottom: 34px;
+        height: 112px;
+        width: 445px;
+        margin-left: 165px;
+        margin-top: 152px;
+        margin-bottom: 24px;
         color: #162542;
         font-family: 'Barlow';
-        font-size: 48px;
+        font-size: 56px;
         font-weight: 900;
-        line-height: 48px;
+        line-height: 56px;
         letter-spacing: 0px;
         text-align: left;
     
@@ -595,12 +606,12 @@ section{
     }
     
     .headertext{
-        width: 339px;
+        width: 445px;
         height: 78px;
-        margin-left: 39px;
+        margin-left: 165px;
         color: #7B8BAD;
         font-family: 'Barlow';
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 500;
         line-height: 26px;
         letter-spacing: 0px;
@@ -613,8 +624,8 @@ section{
         border: none;
         height: 58px;
         width: 175px;
-        margin-left: 39px;
-        margin-top: 39px;
+        margin-left: 165px;
+        margin-top: 40px;
         border-radius: 8px;
         background-color: #F16718;
         color: white;
@@ -634,20 +645,26 @@ section{
         font-weight: 700;
         line-height: 26px;
         letter-spacing: 0px;
-        margin-top: 55px;
-        margin-left: 251px;
+        margin-top: 56px;
+        margin-left: 380px;
     
     }
     
     .keyboardn1-desktop{
         display: block;
-        margin-left: 480px;
+        margin-left: 765px;
         margin-top: -270px;
         border-radius: 15px;
-        width: 430px;
-        height: 430px;
+        width: 510px;
+        height: 450px;
         
     
+    }
+
+    .grey{
+        display: block;
+        margin-left: 1305px;
+        margin-top: -450px;
     }
         
     
@@ -655,25 +672,27 @@ section{
     .mainkeyboards{
         display: flex;
         flex-wrap:nowrap;
-        margin-top: 60px;
-        margin-bottom: 60px;
         margin-left: 39px;
+        margin-top: 100px;
         
         
     }
     
     .keyboardn2-desktop{
+        margin-left: 130px;
+        margin-top: 150px;
         display: block;
-        width: 30%;
-        height: 310px;
+        width: 17%;
+        height: 450px;
         border-radius: 15px;
         
     }
     
     .keyboardn3-desktop{
+        margin-top: 150px;
         display: block;
-        width: 60%;
-        height: 310px;
+        width: 33%;
+        height: 450px;
         margin-left: 35px;
     
         border-radius: 15px;
@@ -681,8 +700,8 @@ section{
     
     .wireless{
         text-align: left;
-        margin-left: 39px;
-        margin-top: 70px;
+        margin-left: 1030px;
+        margin-top: -400px;
         margin-bottom: 142px;
         color: #162542;
         height: 108px;
@@ -697,12 +716,10 @@ section{
     }
     
     .maintext{
-        position: absolute;
-        height: 78px;
-        width: 398px;
-        margin-left: 330px;
-        margin-top: -235px;
-        margin-bottom: 111px;
+        height: 130px;
+        width: 260px;
+        margin-left: 1030px;
+        margin-top: -120px;
         font-family: 'Barlow';
         font-size: 16px;
         font-weight: 500;
@@ -715,6 +732,9 @@ section{
     }
     
     section{
+        margin-top: 400px;
+        width: 100vw;
+        margin-left: 165px;
         position: relative;
         display: flex;
         flex-direction: row;
@@ -734,13 +754,9 @@ section{
         background-color: #F16718;
         border: none;
         margin-bottom: 48px;
-        margin-left: 39px;
     }
     
     .sectionh{
-        width: 327px;
-        height: 56px;
-        margin-left: 39px;
         margin-bottom: 24px;
         color: #162542;
         background-color: white;
@@ -754,9 +770,9 @@ section{
     }
     
     .sectionp{
-        width: 327px;
+        width: 281px;
         height: 104px;
-        margin-left: 39px;
+        margin-left: 0px;
         margin-bottom: 100px;
         color: #7B8BAD;
         font-family: 'Barlow';
@@ -769,6 +785,19 @@ section{
     
     .lastp{
         margin-left: 250px;
+        color: #7B8BAD;
+        font-family: 'Barlow';
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        margin-bottom: 50px;
+    
+    }
+    
+    .lastp{
+        margin-left: 568px;
         color: #7B8BAD;
         font-family: 'Barlow';
         font-size: 16px;
